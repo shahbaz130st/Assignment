@@ -1,0 +1,83 @@
+header{
+  background-color: skyblue;
+  text-align: right;
+  
+}
+.pp{
+  background-image: url("sb.jpg");
+}
+.Contact-input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Contact-input[type=submit] {
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Contact-input[type=submit]:hover {
+  background-color: rgb(114, 146, 250);
+}
+  label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  a:link,:visited{
+    margin-top:15px; 
+    background-color:rgb(255, 255, 255); 
+    border: 2px solid sienna;
+    padding: 10px 20px;
+    text-decoration:none;
+    text-align: center; 
+    color:black;
+    display:inline-block;
+  }
+ a:active,a:hover{
+    background-color:darksalmon; 
+    color: blue;
+  }
+  div{
+    background-color:sienna; 
+  }
+  #customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+  #ul {
+  background:brown;
+  padding: 20px;
+}
+#ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
